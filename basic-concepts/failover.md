@@ -52,7 +52,7 @@ In a sense, there is hot standbys.
 - Cons
   - Data merging or joins are a complicated task
 
-#### Example
+#### Examples
 
 - MongoDB
   - "mongos" is the shard load balancer
@@ -73,8 +73,8 @@ __Sharded databases are usually called NoSQL__
 ### NoSQL Databases
 
 - Tough to have joins across shards
-- Resharding
-- Hotspots
+- Resharding (problem regarding horizontally scaling) and consistency issues
+- Hotspots (shards that are heavy loaded amongts the other shards due to the data that is hold)
 - Do have support and applications for SQL api
 - Works best with simple key/value lookups
 - Schema is not needed
