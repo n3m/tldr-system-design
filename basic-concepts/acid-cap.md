@@ -1,21 +1,21 @@
 ## ACID Compliance
 
-## A - Atomicity
+### A - Atomicity
 Either the entire transaction succeeds, or the entire thing fails.
 
 #### Example
 In SQL there are transactions that can be made up of multiple write operations; 
 if one of those operations fails, the whole transaction will fail and the data will be rolled back.
 
-## C - Consistency
+### C - Consistency
 All database rules are enforced, or the entire transaction is rolled back.
 
 NOTE: Consistency outside of ACID is usually refering to how fast we can access the data that we just wrote; deriving in "eventual consistency"
 
-## I - Isolation
+### I - Isolation
 No transaction is affected by any other transaction that is stil in progress. (If needed, then we need a querying system)
 
-## D - Durability
+### D - Durability
 Once a transaction is commited, it stays, even if the sustem crashes immediately after.
 
 - - - -
