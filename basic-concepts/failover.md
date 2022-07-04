@@ -61,6 +61,7 @@ In a sense, there is hot standbys.
     - Primary servers can be replaced automatically by the secondary servers.
   - The database has a scheme for the config. A config server, and two secondary config servers are in charge of defining that scheme.
 
+![image](https://user-images.githubusercontent.com/36679293/177079324-15bfd3e2-d49e-47b7-83c9-690129713a3e.png)
 
 
 
