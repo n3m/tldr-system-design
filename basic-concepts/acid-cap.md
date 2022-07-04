@@ -30,4 +30,14 @@ There are three things that we care about databases.
 - Consistency
 - Partition-Tolerance
 
+### Examples
+- When you don't care about scalability, but need consistent and highly available data
+  - MySQL or Oracle would be right
+- When you don't care about consistency (don't need to read the data you just wrote immediately), but want to be scalable and highly available
+  - Cassandra is right.
+- When you don't care about availability.
+  - MongoDB or DynamoDB is right
+
+"__All of these systems may have single points of failures at some point__"
+
 ![image](https://user-images.githubusercontent.com/36679293/177081989-a144495c-a3ab-4c2c-8eee-c18b8c5a6b6e.png)
