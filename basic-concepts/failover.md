@@ -41,6 +41,25 @@ Instead of using replication of the data, the idea is to write simultaniously to
 
 ### Databases - Sharding
 
+![image](https://user-images.githubusercontent.com/36679293/177078208-2ec4fe1a-3c87-401a-9d86-0e03c65afccc.png)
+
+A shard is a horizontal partition of the database. Each shard has a backup.
+In a sense, there is hot standbys.
+
+- Pros
+  - Each shard has a backup
+  - Redirects to shards
+- Cons
+  - Data merging or joins are a complicated task
+
+#### Example
+
+- MongoDB
+  - "mongos" is the shard load balancer
+    - Redirects data and requests to the shards depending on a set scheme
+  - Each shard has a primary server and multiple secondary (backup) servers. Usually called replica sets
+    - Primary servers can be replaced automatically by the secondary servers.
+  - The database has a scheme for the config. A config server, and two secondary config servers are in charge of defining that scheme.
 
 
 
