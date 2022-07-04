@@ -1,3 +1,3 @@
 # TLDR; System Design - Basic Concepts
 
- [Scaling](/scaling.md)
+ [Scaling](/basic-concepts/scaling.md)
