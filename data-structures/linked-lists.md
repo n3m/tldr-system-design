@@ -1,4 +1,4 @@
-## Linked Lists
+## Data Structures: Linked Lists
 
 ### Singly Linked List
 
