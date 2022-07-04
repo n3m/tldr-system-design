@@ -7,3 +7,4 @@
  - [Caching](/basic-concepts/caching.md)
  - [CDNs](/basic-concepts/cdn.md)
  - [Resiliency](/basic-concepts/resiliency.md)
+ - [Data Retrieval](/basic-concepts/data-retrieval.md)
