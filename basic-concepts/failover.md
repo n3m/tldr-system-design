@@ -63,5 +63,10 @@ In a sense, there is hot standbys.
 
 ![image](https://user-images.githubusercontent.com/36679293/177079324-15bfd3e2-d49e-47b7-83c9-690129713a3e.png)
 
+- Cassandra
+  - Has a node ring system where the data is still sharded, but any of the nodes can serve as a primary node.
+  - All of the nodes need to know how has what and where.
+  - "Eventual consistency" is a tradeoff, because it takes time to sync everything.
 
+__Sharded databases are usually called NoSQL__
 
