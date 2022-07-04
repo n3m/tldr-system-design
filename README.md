@@ -1,6 +1,6 @@
 # TLDR; System Design
 
-- [Basic Concepts](/basic-concepts)
+- [Basic Concepts](/basic-concepts/README.md)
 
 ## Authors
 
