@@ -1,5 +1,7 @@
 ## Failover
 
+The idea of preparing your entities for failure situations with backup solutions
+
 ## Failover Strategies
 
 ### Databases - Cold Standby
