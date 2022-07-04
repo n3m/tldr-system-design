@@ -15,7 +15,7 @@ The action of storing a frequently accessed piece of information in a reliable a
   - In-memory
   - Severily improves performance (commonly used for Databases)
 - Cons
-  - Hotspots can be created.
+  - Hotspots can be created. (Smart caching can be a solution)
   - Cold-starts are an issue. (How do you start a cache layer without DDoS'ing yourself?)
 
 - Usecases
