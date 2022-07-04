@@ -20,3 +20,14 @@ The action of storing a frequently accessed piece of information in a reliable a
 
 - Usecases
   - Applications with more reads that writes
+
+### Eviction Policies
+
+- LRU: Least Recently Used
+  - The oldest data will be kicked out of the data
+- LFU: Least Frequently Used
+- FIFO: First In; First Out
+
+__LRU Example__
+
+![image](https://user-images.githubusercontent.com/36679293/177084848-7b7b083e-0973-4b17-98b4-5342dd8aad7f.png)
