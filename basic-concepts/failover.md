@@ -70,3 +70,11 @@ In a sense, there is hot standbys.
 
 __Sharded databases are usually called NoSQL__
 
+### NoSQL Databases
+
+- Tough to have joins across shards
+- Resharding
+- Hotspots
+- Do have support and applications for SQL api
+- Works best with simple key/value lookups
+- Schema is not needed
